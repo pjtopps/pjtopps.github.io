@@ -47,7 +47,7 @@ $(document).ready(function() {
       dets: "A tic-tac-toe game which includes an unbeatable hard level"
     },
     "wiki-viewer": {
-      link: "https://codepen.io/pjtopping/full/yMLPKX/",
+      link: "https://pjtopps.github.io/wiki-viewer",
       dets: "Uses the wikipedia API"
     },
     "calculator": {
