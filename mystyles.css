@@ -1,0 +1,218 @@
+html, body
+{
+  min-height: 100%;
+  height: 100%;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("https://dncache-mauganscorp.netdna-ssl.com/cropped-wallpapers/1796/1796497-1366x768-[DesktopNexus.com].jpg?st=_nSFAF7IbA9imHYIDkZFeQ&e=1491747452");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#nav-cont
+{
+  z-index: 99;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+#navigation
+{
+  width: 100%;
+  border-radius: 0px 0px 4px 4px;
+  height: 60px;
+}
+
+.navbar-brand
+{
+  width: fit-content;
+}
+
+.navbar-inverse
+{
+  color: white;
+}
+
+#cont
+{
+  min-width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: fit-content;
+}
+
+#all-projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card
+{
+  width: 80%;
+  min-width: 60%;
+  min-height: fit-content;
+  margin: 3% 0px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#pics
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.picture {
+  border: 2px solid black;
+  width: 300px;
+  height: 150px;
+  position: relative;
+}
+
+.inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 150px;
+  width: 300px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#header-parser {
+  background-image: url("images/header-parser.png");
+  background-size: cover;
+}
+
+#timestamp {
+  background-image: url("images/timestamp.png");
+  background-size: cover;
+}
+
+#meteorite {
+  background-image: url("images/meteorite.png");
+  background-size: cover;
+}
+
+#national-contiguity {
+  background-image: url("images/nat-contig.png");
+  background-size: cover;
+}
+
+#heat-map {
+  background-image: url("images/heat-map.png");
+  background-size: cover;
+}
+
+#dungeon-crawler {
+  background-image: url("images/dungeon-crawler.png");
+  background-size: cover;
+}
+
+#game-of-life {
+  background-image: url("images/game-of-life.png");
+  background-size: cover;
+}
+
+#wiki-viewer {
+  background-image: url("images/wiki-viewer.png");
+  background-size: cover;
+}
+
+#calculator {
+  background-image: url("images/calculator.png");
+  background-size: cover;
+}
+
+#tictactoe {
+  background-image: url("images/tic-tac-toe.png");
+  background-size: cover;
+}
+
+#recipe-box {
+  background-image: url("images/recipe-box.png");
+  background-size: cover;
+}
+
+.exception {
+  justify-content: space-around;
+}
+
+#media
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px 10px;
+	padding-top: 15%;
+}
+
+.fa-linkedin
+{
+  background: #007bb6;
+}
+
+.fa-twitter
+{
+  background: #00aced;
+}
+
+@media (max-width: 1000px) {
+  html, body
+  {
+    max-width: 100%;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  #navigation
+  {
+    width: 100%;
+  }
+
+  .card
+  {
+    width: 95%;
+    max-width: 95%;
+  }
+}
