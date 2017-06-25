@@ -31,19 +31,19 @@ $(document).ready(function() {
       dets: ""
     },
     "heat-map": {
-      link: "https://codepen.io/pjtopping/full/MmdwaK/",
+      link: "https://pjtopps.github.io/heat-map",
       dets: "A color-scaled graph showing the change in glabal temperatures"
     },
     "national-contiguity": {
-      link: "https://codepen.io/pjtopping/full/eWaELY/",
+      link: "https://pjtopps.github.io/national-contiguity",
       dets: "Using a D3 forceSimulation to show the network of borders between all countries"
     },
     "meteorite": {
-      link: "https://codepen.io/pjtopping/full/MoWEJP/",
+      link: "https://pjtopps.github.io/meteorite-map",
       dets: "Displays the location of meteorite hits on a world map"
     },
     "tictactoe": {
-      link: "https://codepen.io/pjtopping/full/PpXJgw/",
+      link: "https://pjtopps.github.io/tictactoe",
       dets: "A tic-tac-toe game which includes an unbeatable hard level"
     },
     "wiki-viewer": {
@@ -51,7 +51,7 @@ $(document).ready(function() {
       dets: "Uses the wikipedia API"
     },
     "calculator": {
-      link: "https://codepen.io/pjtopping/full/YZYBdB/",
+      link: "https://pjtopps.github.io/calculator",
       dets: "Uses JQuery. A basic functioning calculator. Styled using bootstrap."
     },
     "header-parser": {
