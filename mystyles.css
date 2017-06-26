@@ -54,6 +54,14 @@ body
   min-height: fit-content;
 }
 
+.boasts {
+  font-size: 1.5em;
+}
+
+#intro {
+  font-weight: bold;
+}
+
 #all-projects {
   width: 100%;
   display: flex;
@@ -107,6 +115,15 @@ body
   color: white;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0);
+}
+
+h5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-size: .8em;
 }
 
 #header-parser {
