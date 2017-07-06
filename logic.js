@@ -61,6 +61,10 @@ $(document).ready(function() {
     "timestamp": {
       link: "https://fcc-timestamp-pjt.glitch.me/",
       dets: "My first attempt at using node.js and Express. Returns a date object corresponding to the date or unix timestamp given in the URL."
+    },
+    "url-shortener": {
+      link: "https://fcc-urlshortener.glitch.me/",
+      dets: "My first attempt using MongoDB. Also uses node.js and Express. Client gives a url as a parameter and the site returns a shortened url which can then be used instead."
     }
   };
 

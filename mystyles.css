@@ -136,6 +136,11 @@ h5 {
   background-size: cover;
 }
 
+#url-shortener {
+  background-image: url("images/url-shortener.png");
+  background-size: cover;
+}
+
 #meteorite {
   background-image: url("images/meteorite.png");
   background-size: cover;
@@ -179,10 +184,6 @@ h5 {
 #recipe-box {
   background-image: url("images/recipe-box.png");
   background-size: cover;
-}
-
-.exception {
-  justify-content: space-around;
 }
 
 @media (max-width: 1000px) {
